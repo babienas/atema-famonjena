@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyeux Anniversaire Atema !</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="confetti-canvas"></canvas>
+    <main class="card-container">
+        <header class="header">
+            <span class="name">RADNRIANIRINA<br>ATEMA<br>FAMONJENA</span>
+            <p class="subtitle">Pour tes 29 ans</p>
+            <p class="music-hint">(Clique n'importe où pour lancer la musique 🎵)</p>
+        </header>
+        <div class="photo-frame">
+            <img src="image/atema.jpg" alt="Photo de Atema" id="profile-pic">
+        </div>
+        <section class="message-section">
+            <p id="typewriter-text"></p>
+            <p id="hidden-message" style="display: none;">
+                Joyeux anniversaire ! 🎉 Merci d'avoir été là pour nous, tu as fait énormément pour nous. J'espère que Dieu te rendra tout ce que tu nous as donné (ainao iany mantsy fa karakaina ny tany ra zay no endrasana). Je te souhaite d'atteindre tous tes objectifs et d'obtenir tout ce que tu souhaites. Aujourd'hui, c'est ton jour, alors profite bien et pense un peu à toi.
+            </p>
+        </section>
+        <a href="anecdote.html" class="btn">Petite anecdote</a>
+    </main>
+
+    <audio id="bg-music" loop>
+        <source src="audio/HAPPY_BIRTHDAY_INSTRUMENTAL(256k).mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
